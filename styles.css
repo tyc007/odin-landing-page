@@ -20,13 +20,13 @@ body {
     flex-direction: column;
     align-items: space-between;
     justify-content: space-between;
-    padding: 16px 5vw;
+    padding: 16px 8vw 48px;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 16px;
+    margin-bottom: 48px;
 }
 
 .links {
@@ -61,6 +61,7 @@ a {
     max-width: 50%;
     max-height: 400px;
     margin: 10px;
+    border-radius: 16px;
 }
 
 
@@ -74,12 +75,9 @@ button, .call-to-action{
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
-    padding: 4px 16px;
+    padding: 8px 32px;
+    font-size: 18px;
     
-}
-
-button {
-
 }
 
 .content-title {
@@ -97,4 +95,8 @@ button {
     font-weight: 100;
     font-style: italic;
     color: #1F2937;
+}
+
+.footer {
+    justify-content: center;
 }
