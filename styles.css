@@ -8,15 +8,25 @@ body {
     margin: auto;
 }
 
-.header, .hero, .footer {
+.header, .footer {
     background-color: #1F2937;
     color: #E5E7EB;
     padding: 20px;
+    display: flex;
+    
 }
 
 .header {
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    padding: 16px 5vw;
+}
+
+.nav {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 16px;
 }
 
 .links {
@@ -36,10 +46,23 @@ body {
     gap: 16px;
 }
 
-.header a{
+a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+.hero {
+    display: flex;
+    gap: 32px;
+    
+}
+
+.hero > img {
+    max-width: 50%;
+    max-height: 400px;
+    margin: 10px;
+}
+
 
 #hero-main{
     font-size: 48px;
@@ -50,6 +73,13 @@ body {
 button, .call-to-action{
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 8px;
+    padding: 4px 16px;
+    
+}
+
+button {
+
 }
 
 .content-title {
