@@ -1,20 +1,27 @@
 body {
     height: 100vh;
+    width: 100vw;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     font-size: 18px;
+    margin: auto;
 }
 
 .header, .hero, .footer {
     background-color: #1F2937;
     color: #E5E7EB;
+    padding: 20px;
 }
 
-#hero-main{
-    font-size: 48px;
-    font-weight: 600;
-    color: #F9FAF8;
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    margin: 5px;
 }
 
 .header #header-logo {
@@ -22,15 +29,22 @@ body {
     color: #F9FAF8;
 }
 
-.links > ul {
+.links {
     list-style: none;
     margin: 0;
     padding: 0;
+    gap: 16px;
 }
 
 .header a{
     text-decoration: none;
     color: #E5E7EB;
+}
+
+#hero-main{
+    font-size: 48px;
+    font-weight: 600;
+    color: #F9FAF8;
 }
 
 button, .call-to-action{
