@@ -71,13 +71,21 @@ a {
     color: #F9FAF8;
 }
 
-button, .call-to-action{
+.cta {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
     padding: 8px 32px;
     font-size: 18px;
-    
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border-color: white;
+    padding: 8px 32px;
+    font-size: 18px;
 }
 
 .content {
@@ -129,6 +137,26 @@ button, .call-to-action{
     font-style: normal;
     font-weight: 600;
     padding: 16px;
+}
+
+.cta {
+    padding: 48px 64px;
+    margin: 5vh 10vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+}
+
+.cta-title {
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+
+.cta>button{
+    flex-shrink: 0;
+    height: 48px;
 }
 
 .footer {
